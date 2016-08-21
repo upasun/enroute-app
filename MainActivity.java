@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_PHONE_STATE = 2;
 
-    private static String adminURL = "http://ec2-54-179-148-5.ap-southeast-1.compute.amazonaws.com:6001/api/v1.0/users?mobile=";
+    private static String adminURL = "REDACTED";
 
     private static ArrayList<String> permissions = new ArrayList<String>();
 
@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
     private void checkIfAdmin() {
         Log.w("Main Activity", "Checking if Admin");
 
-        adminURL = "http://ec2-54-179-148-5.ap-southeast-1.compute.amazonaws.com:6001/api/v1.0/users?mobile=";
+        adminURL = "REDACTED";
 
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED) {
