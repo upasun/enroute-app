@@ -25,7 +25,7 @@ public class locationservice extends IntentService{
 
     //This intent service handles posting JSON data to server
 
-    private static final String address = "http://ec2-54-179-148-5.ap-southeast-1.compute.amazonaws.com:6001/api/v1.0/tracker";
+    private static final String address = "REDACTED";
     private static int changes = 0;
 
     public locationservice(){
