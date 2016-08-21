@@ -83,7 +83,7 @@ public class MainService extends Service implements GoogleApiClient.ConnectionCa
 
             //below block gets tenant id and user id with instance of object from helper class SimpleHttpGet
             SimpleHttpGet myGet = new SimpleHttpGet();
-            myGet.setAddress("http://ec2-54-179-148-5.ap-southeast-1.compute.amazonaws.com:6001/api/v1.0/users?mobile="+mobile);
+            myGet.setAddress("/*REDACTED*/"+mobile);
             try {
                 myGet.start();
                 while(myGet.getResponse().equals("")){
