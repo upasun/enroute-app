@@ -1,4 +1,6 @@
 # enroute-app
+Note: This code was uploaded here with the permission of the client. It is intended to showcase experince with Android mobile development, and it is not the final release given to the client.
+
 AlarmReceiver - used to receive recurring alarm for server data post
 
 BootReceiver - used to start app on device boot
